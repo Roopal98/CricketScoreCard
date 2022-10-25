@@ -9,7 +9,22 @@
     overflow-x: hidden;
     overflow: scroll;
     scrollbar-width: none !important;
+    /* font-weight: bold !important; */
+    background-color: white;
 }
  ::-webkit-scrollbar{
     display: none;
 }
+
+.nav-link{
+    color: grey !important;
+}
+
+.nav-link.active {
+    border-bottom: 4px solid red !important;
+    /* background-color: black; */
+}
+
+/* .nav-tabs .nav-link.active {
+ background-color: black !important;
+} */
