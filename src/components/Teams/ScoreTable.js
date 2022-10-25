@@ -1,3 +1,4 @@
+import { Card } from 'react-bootstrap';
 import Table from 'react-bootstrap/Table';
 import './ScoreTable.css'
 
@@ -18,7 +19,10 @@ const ScoreTable = (props) => {
         tableData = ['name', 'score_at_dismissal','over_at_dismissal']
     }
     return (
-        <Table>
+        // <Card className="text-center">
+        //             <Card.Header>BATTING</Card.Header>
+        //             <Card.Body>
+                    <Table size='sm'>
       <thead>
         <tr>
             {
@@ -51,6 +55,9 @@ const ScoreTable = (props) => {
             }
       </tbody>
     </Table>
+                    // </Card.Body>
+                    // </Card>
+        
     )
 
 }
