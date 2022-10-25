@@ -1,12 +1,12 @@
 .table{
     background-color: white;
     color: black !important;
-    font-weight: bold !important
+    /* font-weight: bold !important */
 }
 
 th{
-    background-color: rgb(216, 213, 213) !important;
+    background-color: rgb(243, 239, 239) !important;
 }
 
-.bolded { font-weight: bold; }
+/* .bolded { font-weight: bold; } */
 

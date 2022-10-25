@@ -3,7 +3,7 @@ import './ScoreCard.css'
 
 const ScoreCard = (props) => {
     return (
-        <Card sx={{ border: '1px solid red' }} className='team-score' style={{ width: '18rem' }}>
+        <Card sx={{ border: '1px solid red' }} className='team-score' style={{ width: '-webkit-fill-available','align-items':'center' }}>
       <Card.Body>
       <Card.Text>
           {props.country}

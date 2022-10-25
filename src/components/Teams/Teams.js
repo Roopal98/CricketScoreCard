@@ -17,9 +17,8 @@ const Teams =(props) => {
     return(
         <>
         
-        
         <Container>
-        <Row className="no-wrap">
+        <Row className="no-wrap mb-5">
             <Col md={6} className="d-flex justify-content-flex-center"><ScoreCard country={countryA} score={scoreA} image={imgA}/></Col>
             <Col md={6} className="d-flex justify-content-flex-end"><ScoreCard country={countryB} score={scoreB} image={imgB}/></Col>
         </Row>
@@ -33,7 +32,7 @@ const Teams =(props) => {
     
     //     <Accordion.Header>{Accheading[idx]}</Accordion.Header>
     //     <Accordion.Body>
-    <div className="card-style">
+    <div className="card-style mb-3">
         <Row><Alert key='dark' variant='dark'>
          {Accheading[idx]}
         </Alert></Row>
