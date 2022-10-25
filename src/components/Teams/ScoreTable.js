@@ -16,13 +16,13 @@ const ScoreTable = (props) => {
         tableData = ['name', 'overs','maidens' ,'runs_conceded' , 'wickets' , 'econ']
     }else{
         tableHeaders = ['BATSMAN','Score','Over']
-        tableData = ['name', 'score_at_dismissal','over_at_dismissal']
+        tableData = ['name', 'score_at_dismissal','overs_at_dismissal']
     }
     return (
         // <Card className="text-center">
         //             <Card.Header>BATTING</Card.Header>
         //             <Card.Body>
-                    <Table size='sm'>
+                    <Table hover size='sm' >
       <thead>
         <tr>
             {
