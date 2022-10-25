@@ -1,0 +1,15 @@
+.scroll{
+ 
+        white-space: nowrap;
+      
+}
+
+.nav{
+    flex-wrap: nowrap !important;
+    overflow-x: hidden;
+    overflow: scroll;
+    scrollbar-width: none !important;
+}
+ ::-webkit-scrollbar{
+    display: none;
+}
