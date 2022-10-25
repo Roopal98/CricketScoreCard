@@ -15,21 +15,21 @@ const MatchCard = () => {
     <Card.ImgOverlay>
       <Container className='match-card'>
         {/* first row */}
-          <Row className='match-card-info d-flex align-items-center flex-column'>Asia Cup - India vs Afghanistan</Row>
+          <Row className='mb-3 match-card-info d-flex align-items-center flex-column'>Asia Cup - India vs Afghanistan</Row>
           {/* second row */}
-          <Row className='match-card-score'>
-            <Col lg={4}><span><img
+          <Row className='match-card-score mb-2'>
+            <Col className='d-flex align-items-flex-end'><span><img
               src="https://images.entitysport.com/assets/uploads/2020/12/India.png"
               alt=""
             /></span>IND</Col>
-            <Col lg={4}> 212/2</Col>
+            <Col className='d-flex align-items-center'> 212/2</Col>
           </Row>
-          <Row className='match-card-score'>
-            <Col lg={4}><span><img
+          <Row className='match-card-score mb-2'>
+            <Col className='d-flex align-items-center'><span><img
               src="https://images.entitysport.com/assets/uploads/2020/12/Afghanistan.png"
               alt=""
             /></span> AFG</Col>
-            <Col lg={4}> 111/2</Col>
+            <Col className='d-flex align-items-center'> 111/2</Col>
           </Row>
           <Row className='match-card-footer d-flex align-items-center flex-column'>
             Tue, 25 Oct, India won by 100 runs. Man of the match: Virat Kohli

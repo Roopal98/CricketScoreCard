@@ -15,9 +15,9 @@
 }
 
 .match-card-score{
-  justify-content: space-between;
+  /* justify-content: space-between;
   align-items: unset;
-  padding: 5px 100px 5px 100px;
+  padding: 5px 100px 5px 100px; */
   font-weight: bold;
   /* align-items: unset; */
 }
@@ -30,4 +30,10 @@
 img {
   border-radius: 50%;
   height: 30px;
+}
+
+.d-flex{
+  display: flex!important;
+    justify-content: center;
+    flex-wrap: inherit;
 }
