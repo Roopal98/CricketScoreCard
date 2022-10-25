@@ -5,9 +5,25 @@
 .match-card{
   background-color: #F5F5F5;
   background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  width: 45%;
 }
 
 .match-card-info ,.match-card-teams{
   font-weight: bold;
-  
+}
+
+.match-card-score{
+  justify-content: space-between;
+  align-items: unset;
+  padding: 5px 100px 5px 100px;
+  /* align-items: unset; */
+}
+
+.match-card-footer{
+  background-color: rgb(70, 68, 68);
+}
+
+img {
+  border-radius: 50%;
+  height: 30px;
 }
