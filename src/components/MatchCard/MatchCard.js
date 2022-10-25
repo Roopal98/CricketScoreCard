@@ -6,7 +6,7 @@ import Col from 'react-bootstrap/Col';
 
 
 import './MatchCard.css'
-import background from '/Users/khatana/Documents/cricker/CricketScoreCard/src/MCG.jpeg'
+import background from '../../MCG.jpeg'
 
 const MatchCard = () => {
     return(

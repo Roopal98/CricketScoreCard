@@ -8,6 +8,8 @@ const Teams =(props) => {
     const list = ['batsmen','bowlers','fows']
     const countryA = props.data.innings[0].name
     const scoreA = props.data.innings[0].scores_full
+    const imgA = props.data.innings[0].team.logo_url
+    const imgB = props.data.innings[1].team.logo_url
     const countryB = props.data.innings[1].name
     const scoreB = props.data.innings[1].scores_full
     const Accheading=  ['BATTING', 'BOWLING','FALL OF WICKETS']
@@ -18,8 +20,8 @@ const Teams =(props) => {
         
         <Container>
         <Row className="no-wrap">
-            <Col md={6} className="d-flex justify-content-flex-center"><ScoreCard country={countryA} score={scoreA} /></Col>
-            <Col md={6} className="d-flex justify-content-flex-end"><ScoreCard country={countryB} score={scoreB}/></Col>
+            <Col md={6} className="d-flex justify-content-flex-center"><ScoreCard country={countryA} score={scoreA} image={imgA}/></Col>
+            <Col md={6} className="d-flex justify-content-flex-end"><ScoreCard country={countryB} score={scoreB} image={imgB}/></Col>
         </Row>
         {/* <Accordion defaultActiveKey={["0","1","2"]} alwaysOpen> */}
             {
