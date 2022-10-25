@@ -15,7 +15,7 @@ const MatchCard = () => {
     <Card.ImgOverlay>
       <Container className='match-card'>
         {/* first row */}
-          <Row className='match-card-info d-flex align-items-center flex-column'>ICC Men's T20 World Cup- Australia vs Sri Lanka, 19th Match</Row>
+          <Row className='match-card-info d-flex align-items-center flex-column'>Asia Cup - India vs Afghanistan</Row>
           {/* second row */}
           <Row className='match-card-score'>
             <Col lg={4}><span><img
