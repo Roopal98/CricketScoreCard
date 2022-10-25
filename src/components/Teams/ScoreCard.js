@@ -16,4 +16,4 @@ const ScoreCard = (props) => {
 
 }
 
-export default ScoreCard
+export default ScoreCard     

@@ -1,0 +1,11 @@
+.card-style{
+    display:flex;
+
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.card-style p{
+    background-color: lightgrey;
+    padding: 5px;
+}
