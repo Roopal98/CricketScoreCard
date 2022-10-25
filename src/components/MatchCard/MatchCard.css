@@ -2,3 +2,12 @@
     width: 100%;
     height: 300px;
   }
+.match-card{
+  background-color: #F5F5F5;
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+}
+
+.match-card-info ,.match-card-teams{
+  font-weight: bold;
+  
+}

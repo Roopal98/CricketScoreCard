@@ -1,8 +1,9 @@
 import Card from 'react-bootstrap/Card';
+import './ScoreCard.css'
 
 const ScoreCard = (props) => {
     return (
-        <Card style={{ width: '18rem' }}>
+        <Card sx={{ border: '1px solid red' }} className='team-score' style={{ width: '18rem' }}>
       <Card.Body>
       <Card.Text>
           {props.country}
