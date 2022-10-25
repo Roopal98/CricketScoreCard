@@ -9,15 +9,15 @@
     overflow-x: hidden;
     overflow: scroll;
     scrollbar-width: none !important;
-    font-weight: bold !important;
-    background-color: black;
+    /* font-weight: bold !important; */
+    background-color: white;
 }
  ::-webkit-scrollbar{
     display: none;
 }
 
 .nav-link{
-    color: whitesmoke !important;
+    color: grey !important;
 }
 
 .nav-link.active {
@@ -25,6 +25,6 @@
     /* background-color: black; */
 }
 
-.nav-tabs .nav-link.active {
+/* .nav-tabs .nav-link.active {
  background-color: black !important;
-}
+} */

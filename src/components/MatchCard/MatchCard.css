@@ -3,9 +3,10 @@
     height: 300px;
   }
 .match-card{
-  background-color: #F5F5F5;
-  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  background-color: whitesmoke;
+  background: rgba(245, 245, 245, 0.5); /* Black see-through */
   width: 45%;
+  color: rgb(8, 8, 8);
 }
 
 .match-card-info ,.match-card-teams{
@@ -21,7 +22,8 @@
 }
 
 .match-card-footer{
-  background-color: rgb(70, 68, 68);
+  background-color: whitesmoke;
+  color: rgb(110, 108, 108);
 }
 
 img {

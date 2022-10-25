@@ -3,7 +3,7 @@ import ScoreCard from "./ScoreCard";
 import ScoreTable from "./ScoreTable";
 import TeamCard from "./TeamCard";
 const Teams =(props) => {
-    // console.log(props.data.innings)
+    console.log(props.data.innings)
     const list = ['batsmen','bowlers','fows']
     const countryA = props.data.innings[0].name
     const scoreA = props.data.innings[0].scores_full
