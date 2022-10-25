@@ -9,9 +9,12 @@ const ScoreTable = (props) => {
         tableData = ['name' , 'runs' ,'balls_faced' ,'fours','sixes','strike_rate']
         console.log(tableHeaders)
     }
-    else {
+    else if(props.type==='bowlers') {
         tableHeaders = ['BOWLER','O','M','R','W','Econ']
         tableData = ['name', 'overs','maidens' ,'runs_conceded' , 'wickets' , 'econ']
+    }else{
+        tableHeaders = ['BATSMAN','Score','Over']
+        tableData = ['name', 'score_at_dismissal','over_at_dismissal']
     }
     return (
         <Table >
