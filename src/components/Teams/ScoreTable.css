@@ -1,0 +1,12 @@
+.table{
+    background-color: black;
+    color: whitesmoke !important;
+    font-weight: bold 
+}
+
+th{
+    background-color: grey !important;
+}
+
+.bolded { font-weight: bold; }
+

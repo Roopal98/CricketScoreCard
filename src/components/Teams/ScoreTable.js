@@ -1,4 +1,5 @@
 import Table from 'react-bootstrap/Table';
+import './ScoreTable.css'
 
 const ScoreTable = (props) => {
     console.log(props.type)
@@ -17,7 +18,7 @@ const ScoreTable = (props) => {
         tableData = ['name', 'score_at_dismissal','over_at_dismissal']
     }
     return (
-        <Table >
+        <Table>
       <thead>
         <tr>
             {
