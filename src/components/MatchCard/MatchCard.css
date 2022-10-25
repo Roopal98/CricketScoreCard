@@ -16,6 +16,7 @@
   justify-content: space-between;
   align-items: unset;
   padding: 5px 100px 5px 100px;
+  font-weight: bold;
   /* align-items: unset; */
 }
 
