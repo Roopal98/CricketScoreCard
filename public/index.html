@@ -40,4 +40,17 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
   </body>
+  <script>
+    function scrollFunction() {
+  if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+    document.getElementById("showNav").style.top = "0";
+  } else {
+    document.getElementById("showNav").style.top = "-60px";
+  }
+}
+
+    window.onscroll = function() {scrollFunction()};
+    // var scrollVal = document.getElementById('showNav')
+
+    </script>
 </html>

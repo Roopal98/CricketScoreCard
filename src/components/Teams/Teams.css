@@ -9,3 +9,7 @@
     /* background-color: lightgrey; */
     padding: 5px;
 }
+
+.row-header{
+    border: 1px solid #009270 !important;
+}

@@ -33,7 +33,7 @@ const Teams =(props) => {
     //     <Accordion.Header>{Accheading[idx]}</Accordion.Header>
     //     <Accordion.Body>
     <div className="card-style mb-3">
-        <Row><Alert key='dark' variant='dark'>
+        <Row><Alert key='dark' variant='dark' className='row-header'>
          {Accheading[idx]}
         </Alert></Row>
         <Row>

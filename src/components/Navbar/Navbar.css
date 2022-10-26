@@ -10,18 +10,19 @@
     overflow: scroll;
     scrollbar-width: none !important;
     /* font-weight: bold !important; */
-    background-color: white;
+    background-color: lightgray;
 }
  ::-webkit-scrollbar{
     display: none;
 }
 
 .nav-link{
-    color: grey !important;
+    color: rgb(74, 84, 94) !important;
+    font-weight: bold;
 }
 
 .nav-link.active {
-    border-bottom: 4px solid #bcbebf !important;
+    border-bottom: 4px solid #009270 !important;
     /* background-color: black; */
 }
 
