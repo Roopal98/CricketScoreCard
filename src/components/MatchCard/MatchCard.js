@@ -29,7 +29,7 @@ const MatchCard = (props) => {
               src="https://images.entitysport.com/assets/uploads/2020/12/Afghanistan.png"
               alt=""
             /></span> AFG</Col>
-            <Col className='d-flex align-items-center'> 111/2</Col>
+            <Col className='d-flex align-items-center'> 111/8</Col>
           </Row>
           <Row className='match-card-footer d-flex align-items-center flex-column'>
             Tue, 25 Oct, India won by 100 runs. Man of the match: Virat Kohli
@@ -39,13 +39,13 @@ const MatchCard = (props) => {
   </Card>
   <Alert variant='primary' key='light' id='showNav' >
     <span><img
-              src={props.img1}
+              src={props.img[0].team.logo_url}
               alt=""
             />
-      </span>&nbsp;158/3&nbsp;&nbsp; vs&nbsp;&nbsp; <span><img
-            src={props.img2}
+      </span>&nbsp;212/2&nbsp;&nbsp; vs&nbsp;&nbsp; <span><img
+            src={props.img[1].team.logo_url}
             alt=""
-          /></span>&nbsp;157/6</Alert>
+          /></span>&nbsp;111/8</Alert>
       </>
         
     )
