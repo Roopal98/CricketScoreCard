@@ -21,9 +21,12 @@ const App = () => {
   //   }
   //   fetchData()
   // },[])
+
+  const img1 = data.data.innings[0].team.logo_url
+  const img2 = data.data.innings[1].team.logo_url
   return (
     <div>
-      <MatchCard />
+      <MatchCard img1={img1} img2={img2} />
       <Navbar />
       <Teams data={data.data}/>
     </div>

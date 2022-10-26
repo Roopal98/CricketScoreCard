@@ -3,19 +3,19 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-
-
 import './MatchCard.css'
 import background from '../../MCG.jpeg'
+import { Alert } from 'react-bootstrap';
 
-const MatchCard = () => {
+const MatchCard = (props) => {
     return(
-        <Card className="bg-dark text-white">
+      <>
+      <Card className="bg-dark text-white">
     <Card.Img src={background} alt="Card image" className='image' />
     <Card.ImgOverlay>
       <Container className='match-card'>
         {/* first row */}
-          <Row className='mb-3 match-card-info d-flex align-items-center flex-column'>Asia Cup - India vs Afghanistan</Row>
+          <Row className='mb-1 match-card-info d-flex align-items-center flex-column'>Asia Cup - India vs Afghanistan</Row>
           {/* second row */}
           <Row className='match-card-score mb-2'>
             <Col className='d-flex align-items-flex-end'><span><img
@@ -37,6 +37,17 @@ const MatchCard = () => {
         </Container>
     </Card.ImgOverlay>
   </Card>
+  <Alert variant='primary' key='light' id='showNav' >
+    <span><img
+              src={props.img1}
+              alt=""
+            />
+      </span>&nbsp;158/3&nbsp;&nbsp; vs&nbsp;&nbsp; <span><img
+            src={props.img2}
+            alt=""
+          /></span>&nbsp;157/6</Alert>
+      </>
+        
     )
 }
 
